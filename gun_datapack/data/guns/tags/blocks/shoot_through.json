@@ -1,0 +1,20 @@
+{
+
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "structure_void",
+        "water",
+        "lava",
+        "#tall_flowers",
+        "#small_flowers",
+        "grass",
+        "tall_grass",
+        "seagrass",
+        "tall_seagrass",
+        "#coral_plants",
+        "#wooden_buttons",
+        "#wooden_pressure_plates"
+    ]    
+}

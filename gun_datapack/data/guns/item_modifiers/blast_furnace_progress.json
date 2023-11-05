@@ -1,0 +1,21 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": [
+            {
+                "score": {
+                    "name": "@s",
+                    "objective": "guns.blast_furnace_smelt_progress"
+                },
+                "color": "white",
+                "italic": false
+            },
+            {
+                "text": "%",
+                "color": "white",
+                "italic": false
+            }
+        ]
+    }
+]
