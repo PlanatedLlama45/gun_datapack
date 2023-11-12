@@ -7,6 +7,7 @@ execute as @a[scores={rightClick=1.., shift=0}, nbt={SelectedItem: {tag: {Tags: 
 
 scoreboard players set @a rightClick 0
 scoreboard players set @a shift 0
+scoreboard players set @a barrelOpen 0
 
 # cooldown
 execute as @a run function guns:cooldown

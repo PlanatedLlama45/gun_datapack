@@ -4,7 +4,10 @@ tag @s add shooter
 scoreboard players set @s guns.shoot_distance 0
 scoreboard players set @s guns.shoot_pierced 0
 
+execute positioned ~ ~0.4 ~ run particle poof ~ ~ ~ 0.1 0.1 0.1 0.05 2 normal
+
 # check for weapons
+execute if entity @s[nbt={SelectedItem: {tag: {Tags: ["glock_23"]}}}] run function guns:glock_23/shoot
 execute if entity @s[nbt={SelectedItem: {tag: {Tags: ["desert_eagle"]}}}] run function guns:desert_eagle/shoot
 
 # decrease ammo

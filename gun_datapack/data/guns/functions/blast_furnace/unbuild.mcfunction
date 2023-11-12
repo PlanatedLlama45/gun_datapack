@@ -6,4 +6,3 @@ execute if entity @s[tag=!non_built] run kill @e[type=item, distance=..1, nbt={I
 tag @s add non_built
 
 kill @e[type=item, distance=..1, nbt={Item: {id: "minecraft:barrier", Count: 1b, tag: {Tags: ["blast_furnace_interface"]}}}]
-kill @e[type=item, distance=..1, nbt={Item: {id: "minecraft:barrier", Count: 1b, tag: {Tags: ["blast_furnace_progress"]}}}]

@@ -1,0 +1,63 @@
+[
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1001}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "guns.polymerizator_water": 0
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1302}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "guns.polymerizator_water": 250
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1303}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "guns.polymerizator_water": {
+                        "min": 500,
+                        "max": 1000
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": [
+            {
+                "score": {
+                    "name": "@s",
+                    "objective": "guns.polymerizator_water"
+                },
+                "color": "gray",
+                "italic": false
+            },
+            {
+                "text": "mb",
+                "color": "gray",
+                "italic": false
+            }
+        ]
+    }
+]

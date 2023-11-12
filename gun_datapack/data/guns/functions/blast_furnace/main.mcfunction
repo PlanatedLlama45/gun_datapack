@@ -5,4 +5,3 @@ execute as @e[tag=blast_furnace, tag=!non_built] at @s run function guns:blast_f
 execute as @e[tag=blast_furnace, tag=!non_built] at @s run function guns:blast_furnace/sound
 
 clear @a barrier{Tags: ["blast_furnace_interface"]}
-clear @a barrier{Tags: ["blast_furnace_progress"]}

@@ -1,7 +1,7 @@
 tag @e[type=item, nbt={Item: {id: "minecraft:iron_ingot", tag: {Tags: ["steel"]}}}] add black_steel_craft_steel
-execute as @e[tag=black_steel_craft_steel] store result score @s guns.itemNum run data get entity @s Item.Count
+execute as @e[tag=black_steel_craft_steel] store result score @s guns.item_num run data get entity @s Item.Count
 execute as @e[tag=black_steel_craft_steel] at @s run tag @e[type=item, distance=..0.5, nbt={Item: {id: "minecraft:black_dye"}}] add black_steel_craft_dye
-execute as @e[tag=black_steel_craft_dye] store result score @s guns.itemNum run data get entity @s Item.Count
+execute as @e[tag=black_steel_craft_dye] store result score @s guns.item_num run data get entity @s Item.Count
 
 tag @e[tag=black_steel_craft_steel] add black_steel_craft
 tag @e[tag=black_steel_craft_dye] add black_steel_craft
@@ -9,7 +9,7 @@ tag @e[tag=black_steel_craft_dye] add black_steel_craft
 execute at @e[tag=black_steel_craft_dye] if entity @e[distance=..0.5, tag=!black_steel_craft] run tag @e remove black_steel_craft
 execute at @e[tag=black_steel_craft_dye] if entity @e[distance=..0.5, tag=!black_steel_craft] run tag @e remove black_steel_craft_dye
 
-execute as @e[tag=black_steel_craft_dye] at @e[tag=black_steel_craft_steel] if score @s guns.itemNum <= @e[tag=black_steel_craft_steel, limit=1] guns.itemNum if score @s guns.itemNum >= @e[tag=black_steel_craft_steel, limit=1] guns.itemNum run summon minecraft:armor_stand ~ ~ ~ {Invisible: 1b, Invulnerable: 1b, Tags: ["black_steel_craft", "black_steel_craft_stand"]}
+execute as @e[tag=black_steel_craft_dye] at @e[tag=black_steel_craft_steel] if score @s guns.item_num <= @e[tag=black_steel_craft_steel, limit=1] guns.item_num if score @s guns.item_num >= @e[tag=black_steel_craft_steel, limit=1] guns.item_num run summon minecraft:armor_stand ~ ~ ~ {Invisible: 1b, Invulnerable: 1b, Tags: ["black_steel_craft", "black_steel_craft_stand"]}
 
 execute at @e[tag=black_steel_craft_stand] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=black_steel_craft_stand] run playsound item.bone_meal.use ambient @a ~ ~ ~
