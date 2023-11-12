@@ -20,7 +20,7 @@ Adds firearms to Minecraft
 ## Crafts
 
 ### Materials
-### Steel
+#### Steel
 - Crafting Table: Iron Ingot 2x, Coal 2x, Blaze Powder 2x
 - Blast Furnace structure: Iron ingot 1x, Coal 2x
 ### Black Steel
