@@ -16,6 +16,7 @@ Adds firearms to Minecraft
 - Pistol Barrel
 
 ## Crafts
+All crafting is shapeless
 ### Materials
 #### Steel
 - Crafting Table: Iron Ingot 2x, Coal 2x, Blaze Powder 2x
