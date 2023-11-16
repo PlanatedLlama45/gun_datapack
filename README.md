@@ -35,6 +35,10 @@ Adds firearms to Minecraft
 - Gun Station: Steel x4, Black Steel x2, Copper Ingot 1x, Glass x1, Comparator x1
 <br>
 
+### Blast Furnace structure
+![Blast Furnace structure Tutorial](https://github.com/PlanatedLlama45/gun_datapack/assets/79642040/df17ef5f-e486-4cb3-8727-e64a7157da67)
+<br>
+
 ### Gun Parts
 #### Pistol Barrel
 - Gun Station: Steel x2
