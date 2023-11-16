@@ -16,7 +16,10 @@ Adds firearms to Minecraft
 - Pistol Barrel
 
 ## Crafts
-All crafting is shapeless
+All crafting is shapeless<br>
+To craft on a Gun Station you drop all the items onto it<br>
+To use a Polymerizator you need to put a heat source under it (Fire, Lava, Lava Cauldron, Campfire, Soul Campfire, Magma)<br>
+If it says x(any) then all stacks should be equal during one craft<br>
 ### Materials
 #### Steel
 - Crafting Table: Iron Ingot 2x, Coal 2x, Blaze Powder 2x
@@ -63,10 +66,6 @@ All crafting is shapeless
 #### Glock 23
 - Gun Station: Plastic x1, Iron Nugget x2
 <br>
-
-P.S. To craft on a Gun Station you drop all the items onto it.<br>
-P.P.S. To use a Polymerizator you need to put a heat source under it (Fire, Lava, Lava Cauldron, Campfire, Soul Campfire, Magma)<br>
-P.P.P.S. If it says x(any) then all stacks should be equal during one craft<br>
 
 ### FAQ
 - To fill a magazine you hold it and press F
