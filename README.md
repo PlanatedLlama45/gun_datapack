@@ -23,7 +23,7 @@ Adds firearms to Minecraft
 #### Black Steel
 - Drop: Steel x(any), Black Dye x(any)
 #### Plastic
-- Polymerizator: Plant (Log, Wood, Azalea, Leaves or a Sapling) x1, Coal x1, Water 250mb
+- Polymerizator: Plant (Log, Wood, Azalea, Moss, Leaves or a Sapling) x1, Coal x1, Water 250mb
 <br>
 
 ### Workbenches
