@@ -20,6 +20,19 @@ All crafting is shapeless<br>
 To craft on a Gun Station you drop all the items onto it<br>
 To use a Polymerizator you need to put a heat source under it (Fire, Lava, Lava Cauldron, Campfire, Soul Campfire, Magma)<br>
 If it says x(any) then all stacks should be equal during one craft<br>
+
+### Blast Furnace structure
+![Blast Furnace structure Tutorial](https://github.com/PlanatedLlama45/gun_datapack/assets/79642040/df17ef5f-e486-4cb3-8727-e64a7157da67)
+<br>
+
+### Blast Furnace Controller
+![blast_furnace_controller_tutorial](https://github.com/PlanatedLlama45/gun_datapack/assets/79642040/61e66090-fbea-48f0-9bd6-7b2c0eddae8c)
+<br>
+
+### Polymerizator
+![polymerizator_tutorial](https://github.com/PlanatedLlama45/gun_datapack/assets/79642040/81f18297-f7da-4d74-b718-edbfd8160f0a)
+<br>
+
 ### Materials
 #### Steel
 - Crafting Table: Iron Ingot 2x, Coal 2x, Blaze Powder 2x
@@ -37,10 +50,6 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Brick Block 1x, Black Steel 4x, Blast Furnace 1x, Redstone Dust 1x, Compass 1x
 #### Polymerizator
 - Gun Station: Steel x4, Black Steel x2, Copper Ingot 1x, Glass x1, Comparator x1
-<br>
-
-### Blast Furnace structure
-![Blast Furnace structure Tutorial](https://github.com/PlanatedLlama45/gun_datapack/assets/79642040/df17ef5f-e486-4cb3-8727-e64a7157da67)
 <br>
 
 ### Gun Parts
