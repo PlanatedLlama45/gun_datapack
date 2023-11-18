@@ -1,5 +1,5 @@
 # Gun Datapack
-Adds firearms to Minecraft
+Adds somewhat realistic firearms to Minecraft, as well as materials, workbenches and ammunition.
 
 ## Additions
 ### Guns
