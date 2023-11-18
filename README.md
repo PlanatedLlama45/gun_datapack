@@ -76,7 +76,7 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Plastic x1, Iron Nugget x2
 <br>
 
-### FAQ
+### Gameplay
 - To reload a gun you hold it, hold shift and then right-click (only works on guns with empty ammo); second click will load a compatible magazine
 - To fill a magazine you hold it and press F
 - To aim a gun you hold it and press F (same to unaim)
