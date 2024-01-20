@@ -1,2 +1,0 @@
-tellraw @a ["\n",{"text":"Datapack and resourcepack made by:","color":"green"},{"text":"\n \u0020"},{"text":"PlanatedLlama45","color":"yellow"},{"text":"\n\n"},{"text":"@You","color":"red","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCJK_rPQoKe38fQmoLKqF6Uw"}},{"text":"Tube","color":"white","clickEvent":{"action":"open_url","value":"https://www.youtube.com/channel/UCJK_rPQoKe38fQmoLKqF6Uw"}},"\n"]
-execute at @a run playsound entity.experience_orb.pickup master @a ~ ~ ~ 1

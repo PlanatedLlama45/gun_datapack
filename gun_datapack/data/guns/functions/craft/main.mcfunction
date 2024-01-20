@@ -1,1 +1,0 @@
-function guns:craft/black_steel
