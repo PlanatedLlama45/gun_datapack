@@ -1,0 +1,15 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": [
+            {
+                "text": "Made by",
+                "color": "green"
+            },
+            {
+                "text": "PlanatedLlama45",
+                "color": "yellow"
+            }
+        ]
+    }
+}
