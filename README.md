@@ -1,6 +1,8 @@
 # Gun Datapack
 Adds somewhat realistic firearms to Minecraft, as well as materials, workbenches and ammunition.
 
+P.S. Everything below is valid for the latest version of the datapack
+
 ## Additions
 ### Guns
 - Desert Eagle
