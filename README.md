@@ -38,7 +38,7 @@ If it says x(any) then all stacks should be equal during one craft<br>
 
 ### Materials
 #### Steel
-- Crafting Table: Iron Ingot 2x, Coal x2, Blaze Powder x1
+- Crafting Table: Iron Ingot x2, Coal x2, Blaze Powder x1
 - Blast Furnace structure: Iron ingot x1, Coal x2
 #### Black Steel
 - Drop: Steel x(any), Black Dye x(any)
