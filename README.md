@@ -23,7 +23,7 @@ P.S. Everything below is only valid for the latest version of the datapack
 ## Crafts
 All crafting is shapeless<br>
 To craft on a Gun Station you drop all the items onto it<br>
-To use a Polymerizator you need to put a heat source under it (Fire, Lava, Lava Cauldron, Campfire, Soul Campfire, Magma)<br>
+To use a Polymerizator you need to put a heat source under it (Campfire, Soul Campfire, Magma)<br>
 If it says x(any) then all stacks should be equal during one craft<br>
 
 ### Blast Furnace structure
