@@ -5,15 +5,18 @@ Adds somewhat realistic firearms to Minecraft, as well as materials, workbenches
 ### Guns
 - Desert Eagle
 - Glock 23
+- L96A1 (A.K.A. AWP)
+- Mosin Nagant
 ### Workstations
 - Gun Station
 - Blast Furnace (multi-block structure)
 - Polymerizator
 ### Ammunition
-- Bullets (only pistol bullets for now)
+- Bullets (pistol and rifle bullets)
 - Magazines (unique for every gun)
 ### Gun parts
 - Pistol Barrel
+- Rifle Barrel
 
 ## Crafts
 All crafting is shapeless<br>
@@ -35,8 +38,8 @@ If it says x(any) then all stacks should be equal during one craft<br>
 
 ### Materials
 #### Steel
-- Crafting Table: Iron Ingot 2x, Coal 2x, Blaze Powder 2x
-- Blast Furnace structure: Iron ingot 1x, Coal 2x
+- Crafting Table: Iron Ingot 2x, Coal x2, Blaze Powder x1
+- Blast Furnace structure: Iron ingot x1, Coal x2
 #### Black Steel
 - Drop: Steel x(any), Black Dye x(any)
 #### Plastic
@@ -45,16 +48,18 @@ If it says x(any) then all stacks should be equal during one craft<br>
 
 ### Workbenches
 #### Gun Station
-- Drop (onto a Smithing Table): Steel 2x, Black Steel 1x
+- Drop (onto a Smithing Table): Steel x2, Black Steel x1
 #### Blast Furnace Controller
-- Gun Station: Brick Block 1x, Black Steel 4x, Blast Furnace 1x, Redstone Dust 1x, Compass 1x
+- Gun Station: Brick Block x1, Black Steel x4, Blast Furnace x1, Redstone Dust x1, Compass x1
 #### Polymerizator
-- Gun Station: Steel x4, Black Steel x2, Copper Ingot 1x, Glass x1, Comparator x1
+- Gun Station: Steel x4, Black Steel x2, Copper Ingot x1, Glass x1, Comparator x1
 <br>
 
 ### Gun Parts
 #### Pistol Barrel
 - Gun Station: Steel x2
+### Rifle Barrel
+- Gun Station: Black Steel x3
 <br>
 
 ### Guns
@@ -62,11 +67,17 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Pistol Barrel x1, Steel x3, Stone Button x1, Tripwire Hook x1
 #### Glock 23
 - Gun Station: Pistol Barrel x1, Plastic x3, Black Steel x1, Stone Button x1, Tripwire Hook x1
+### L96A1
+- Gun Station: Rifle Barrel x1, Black Steel x1, Plastic x5, Tinted Glass x1, Green Dye x2, Iron Nugget x3, Stone Button x1, Tripwire Hook x1
+### Mosin Nagant
+- Gun Station: Rifle Barrel x1, Black Steel x2, Spruce Planks x3, Iron Nugget x3, Stone Button x1, Tripwire Hook x1
 <br>
 
 ### Bullets
 #### Pistol Bullet
-- Gun Station: Copper Ingot x(any), Iron Nugget x(any), Gunpowder x(any) (no more than 6 per craft)
+- Gun Station: Copper Ingot x(any), Iron Nugget x(any), Gunpowder x(any) (no more than 6 per craft. Example: 3 Copper Ingots + 3 Iron Nuggets + 3 Gunpowder)
+#### Rifle Bullet
+- Gun Station: Copper Ingot x(any) * 2, Iron Nugget x(any), Gunpowder x(any) * 2 (no more than 6 Iron Nuggets per craft. Example: 4 Copper Ingots + 2 Iron Nuggets + 4 Gunpowder)
 <br>
 
 ### Magazines
@@ -74,6 +85,10 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Iron Ingot x1, Iron Nugget x2
 #### Glock 23
 - Gun Station: Plastic x1, Iron Nugget x2
+#### L96A1
+- Gun Station: Plastic x1, Black Steel x1, Iron Nugget x1
+#### Glock 23
+- Gun Station: Steel x1, Iron Nugget x2
 <br>
 
 ### Gameplay
