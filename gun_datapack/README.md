@@ -60,7 +60,7 @@ If it says x(any) then all stacks should be equal during one craft<br>
 ### Gun Parts
 #### Pistol Barrel
 - Gun Station: Steel x2
-### Rifle Barrel
+#### Rifle Barrel
 - Gun Station: Black Steel x3
 <br>
 
@@ -69,9 +69,9 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Pistol Barrel x1, Steel x3, Stone Button x1, Tripwire Hook x1
 #### Glock 23
 - Gun Station: Pistol Barrel x1, Plastic x3, Black Steel x1, Stone Button x1, Tripwire Hook x1
-### L96A1
+#### L96A1
 - Gun Station: Rifle Barrel x1, Black Steel x1, Plastic x5, Tinted Glass x1, Green Dye x2, Iron Nugget x3, Stone Button x1, Tripwire Hook x1
-### Mosin Nagant
+#### Mosin Nagant
 - Gun Station: Rifle Barrel x1, Black Steel x2, Spruce Planks x3, Iron Nugget x3, Stone Button x1, Tripwire Hook x1
 <br>
 
