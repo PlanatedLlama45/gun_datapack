@@ -89,7 +89,7 @@ If it says x(any) then all stacks should be equal during one craft<br>
 - Gun Station: Plastic x1, Iron Nugget x2
 #### L96A1
 - Gun Station: Plastic x1, Black Steel x1, Iron Nugget x1
-#### Glock 23
+#### Mosin Nagant
 - Gun Station: Steel x1, Iron Nugget x2
 <br>
 
