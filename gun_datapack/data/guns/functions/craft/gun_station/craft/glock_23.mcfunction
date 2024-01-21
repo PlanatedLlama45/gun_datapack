@@ -10,8 +10,8 @@ tag @e[tag=glock_craft_plastic] add glock_craft
 tag @e[tag=glock_craft_buttton] add glock_craft
 tag @e[tag=glock_craft_hook] add glock_craft
 
-execute at @e[tag=glock_craft_hook] if entity @e[distance=..0.5, tag=!glock_craft] run tag @e remove glock_craft
-execute at @e[tag=glock_craft_hook] if entity @e[distance=..0.5, tag=!glock_craft] run tag @e remove glock_craft_hook
+execute at @e[tag=glock_craft_hook] if entity @e[distance=..0.5, type=item, tag=!glock_craft] run tag @e remove glock_craft
+execute at @e[tag=glock_craft_hook] if entity @e[distance=..0.5, type=item, tag=!glock_craft] run tag @e remove glock_craft_hook
 
 execute at @e[tag=glock_craft_hook] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=glock_craft_hook] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10

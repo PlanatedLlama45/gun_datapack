@@ -12,8 +12,8 @@ tag @e[tag=mosin_craft_buttton] add mosin_craft
 tag @e[tag=mosin_craft_nugget] add mosin_craft
 tag @e[tag=mosin_craft_hook] add mosin_craft
 
-execute at @e[tag=mosin_craft_hook] if entity @e[distance=..0.5, tag=!mosin_craft] run tag @e remove mosin_craft
-execute at @e[tag=mosin_craft_hook] if entity @e[distance=..0.5, tag=!mosin_craft] run tag @e remove mosin_craft_hook
+execute at @e[tag=mosin_craft_hook] if entity @e[distance=..0.5, type=item, tag=!mosin_craft] run tag @e remove mosin_craft
+execute at @e[tag=mosin_craft_hook] if entity @e[distance=..0.5, type=item, tag=!mosin_craft] run tag @e remove mosin_craft_hook
 
 execute at @e[tag=mosin_craft_hook] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=mosin_craft_hook] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10

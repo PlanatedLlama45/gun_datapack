@@ -16,8 +16,8 @@ tag @e[tag=l96a1_craft_hook] add l96a1_craft
 tag @e[tag=l96a1_craft_glass] add l96a1_craft
 tag @e[tag=l96a1_craft_dye] add l96a1_craft
 
-execute at @e[tag=l96a1_craft_dye] if entity @e[distance=..0.5, tag=!l96a1_craft] run tag @e remove l96a1_craft
-execute at @e[tag=l96a1_craft_dye] if entity @e[distance=..0.5, tag=!l96a1_craft] run tag @e remove l96a1_craft_dye
+execute at @e[tag=l96a1_craft_dye] if entity @e[distance=..0.5, type=item, tag=!l96a1_craft] run tag @e remove l96a1_craft
+execute at @e[tag=l96a1_craft_dye] if entity @e[distance=..0.5, type=item, tag=!l96a1_craft] run tag @e remove l96a1_craft_dye
 
 execute at @e[tag=l96a1_craft_dye] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=l96a1_craft_dye] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10

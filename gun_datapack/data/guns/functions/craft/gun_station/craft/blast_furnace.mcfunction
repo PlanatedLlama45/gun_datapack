@@ -10,8 +10,8 @@ tag @e[tag=blast_furnace_craft_furnace] add blast_furnace_craft
 tag @e[tag=blast_furnace_craft_redstone] add blast_furnace_craft
 tag @e[tag=blast_furnace_craft_compass] add blast_furnace_craft
 
-execute at @e[tag=blast_furnace_craft_compass] if entity @e[distance=..0.5, tag=!blast_furnace_craft] run tag @e remove blast_furnace_craft
-execute at @e[tag=blast_furnace_craft_compass] if entity @e[distance=..0.5, tag=!blast_furnace_craft] run tag @e remove blast_furnace_craft_compass
+execute at @e[tag=blast_furnace_craft_compass] if entity @e[distance=..0.5, type=item, tag=!blast_furnace_craft] run tag @e remove blast_furnace_craft
+execute at @e[tag=blast_furnace_craft_compass] if entity @e[distance=..0.5, type=item, tag=!blast_furnace_craft] run tag @e remove blast_furnace_craft_compass
 
 execute at @e[tag=blast_furnace_craft_compass] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=blast_furnace_craft_compass] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10

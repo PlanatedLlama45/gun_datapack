@@ -4,8 +4,8 @@ execute at @e[tag=desert_eagle_ammo_craft_ingot] as @e[type=item, nbt={Item: {id
 tag @e[tag=desert_eagle_ammo_craft_ingot] add desert_eagle_ammo_craft
 tag @e[tag=desert_eagle_ammo_craft_nugget] add desert_eagle_ammo_craft
 
-execute at @e[tag=desert_eagle_ammo_craft_nugget] if entity @e[distance=..0.5, tag=!desert_eagle_ammo_craft] run tag @e remove desert_eagle_ammo_craft
-execute at @e[tag=desert_eagle_ammo_craft_nugget] if entity @e[distance=..0.5, tag=!desert_eagle_ammo_craft] run tag @e remove desert_eagle_ammo_craft_nugget
+execute at @e[tag=desert_eagle_ammo_craft_nugget] if entity @e[distance=..0.5, type=item, tag=!desert_eagle_ammo_craft] run tag @e remove desert_eagle_ammo_craft
+execute at @e[tag=desert_eagle_ammo_craft_nugget] if entity @e[distance=..0.5, type=item, tag=!desert_eagle_ammo_craft] run tag @e remove desert_eagle_ammo_craft_nugget
 
 execute at @e[tag=desert_eagle_ammo_craft_nugget] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=desert_eagle_ammo_craft_nugget] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10

@@ -9,8 +9,8 @@ tag @e[tag=pistol_bullet_craft_ingot] add pistol_bullet_craft
 tag @e[tag=pistol_bullet_craft_nugget] add pistol_bullet_craft
 tag @e[tag=pistol_bullet_craft_powder] add pistol_bullet_craft
 
-execute at @e[tag=pistol_bullet_craft_powder] if entity @e[distance=..0.5, tag=!pistol_bullet_craft] run tag @e remove pistol_bullet_craft
-execute at @e[tag=pistol_bullet_craft_powder] if entity @e[distance=..0.5, tag=!pistol_bullet_craft] run tag @e remove pistol_bullet_craft_powder
+execute at @e[tag=pistol_bullet_craft_powder] if entity @e[distance=..0.5, type=item, tag=!pistol_bullet_craft] run tag @e remove pistol_bullet_craft
+execute at @e[tag=pistol_bullet_craft_powder] if entity @e[distance=..0.5, type=item, tag=!pistol_bullet_craft] run tag @e remove pistol_bullet_craft_powder
 
 execute as @e[tag=pistol_bullet_craft_powder] at @s align xyz if score @s guns.item_num <= @e[tag=pistol_bullet_craft_nugget, sort=nearest, limit=1] guns.item_num if score @s guns.item_num >= @e[tag=pistol_bullet_craft_nugget, sort=nearest, limit=1] guns.item_num run summon minecraft:armor_stand ~0.5 ~1 ~0.5 {Invisible: 1b, Invulnerable: 1b, Tags: ["pistol_bullet_craft", "pistol_bullet_craft_stand"]}
 execute as @e[tag=pistol_bullet_craft_powder] at @s if score @s guns.item_num < @e[tag=pistol_bullet_craft_ingot, sort=nearest, limit=1] guns.item_num run kill @e[tag=pistol_bullet_craft_stand]

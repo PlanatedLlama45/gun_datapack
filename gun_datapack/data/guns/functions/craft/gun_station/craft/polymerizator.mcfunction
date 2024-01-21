@@ -10,8 +10,8 @@ tag @e[tag=polymerizator_craft_glass] add polymerizator_craft
 tag @e[tag=polymerizator_craft_comparator] add polymerizator_craft
 tag @e[tag=polymerizator_craft_steel] add polymerizator_craft
 
-execute at @e[tag=polymerizator_craft_steel] if entity @e[distance=..0.5, tag=!polymerizator_craft] run tag @e remove polymerizator_craft
-execute at @e[tag=polymerizator_craft_steel] if entity @e[distance=..0.5, tag=!polymerizator_craft] run tag @e remove polymerizator_craft_steel
+execute at @e[tag=polymerizator_craft_steel] if entity @e[distance=..0.5, type=item, tag=!polymerizator_craft] run tag @e remove polymerizator_craft
+execute at @e[tag=polymerizator_craft_steel] if entity @e[distance=..0.5, type=item, tag=!polymerizator_craft] run tag @e remove polymerizator_craft_steel
 
 execute at @e[tag=polymerizator_craft_steel] run particle minecraft:cloud ~ ~ ~ 0.1 0.1 0.1 0.05 5 normal
 execute at @e[tag=polymerizator_craft_steel] at @e[type=armor_stand, tag=gun_station, dx=0, dy=0, dz=0] align xyz run playsound block.anvil.use block @a ~0.5 ~0.5 ~0.5 10
