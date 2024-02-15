@@ -1,2 +1,0 @@
-execute if entity @s[nbt={Inventory:[{tag: {Tags: ["ammo", "glock_23"], CustomModelData: 1002}}], SelectedItem: {tag: {CustomModelData: 1004}}}] run function guns:glock_23/reload_end_first
-execute if entity @s[nbt={SelectedItem: {tag: {CustomModelData: 1003}}}] run function guns:glock_23/reload_begin
