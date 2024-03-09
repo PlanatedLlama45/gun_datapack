@@ -1,4 +1,4 @@
-# Gun Datapack
+# Gun Datapack v0.2.2
 Adds somewhat realistic firearms to Minecraft, as well as materials, workbenches and ammunition.
 
 P.S. Everything below is only valid for the latest version of the datapack

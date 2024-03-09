@@ -1,4 +1,5 @@
 # setup
+scoreboard players set @s rightClick 0
 tag @s add shooter
 
 scoreboard players set @s guns.shoot_distance 0
@@ -25,3 +26,4 @@ setblock ~ -64 ~ bedrock
 # end
 execute if score @s guns.ammo > zero CONST run scoreboard players set @s guns.cooldown 0
 tag @s remove shooter
+tag @s remove played_ricochet
